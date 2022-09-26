@@ -7,7 +7,7 @@ export default function Experience() {
     const [pickedPosition, setPickedPosition] = useState(0)
 
     return (
-        <div className="experience-wrapper">
+        <div className="experience-wrapper" id="experience">
             <ExperiencePicker options={EXPERIENCE_ARRAY} currentSelection={pickedPosition} setCurrentSelection={(newValue) => setPickedPosition(newValue)} />
             <ExperienceDetails {...EXPERIENCE_ARRAY[pickedPosition]} />
         </div>

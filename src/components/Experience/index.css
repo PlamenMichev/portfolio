@@ -2,12 +2,12 @@
     width: 70%;
     margin: 150px auto;
     display: flex;
+    justify-content: center;
 }
 
 .picker-wrapper {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
 }
 
 .picker {
@@ -43,4 +43,16 @@ ul {
 li {
     color: var(--secondary-color);
     margin-bottom: 10px;
+}
+
+.experienceDetails {
+    border: 1px solid var(--accent-color);
+    padding: 50px;
+    width: 500px;
+    transition: opacity 0.7s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
