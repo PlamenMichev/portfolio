@@ -3,6 +3,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
+    position: fixed;
+    width: calc(100% - 100px);
+    background-color: var(--main-color);
 }
 
 .nav-links {

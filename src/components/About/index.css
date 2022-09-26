@@ -1,0 +1,31 @@
+.about-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.about-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-image-wrapper {
+    width: 40%;
+    height: auto;
+}
+
+.about-content-wrapper > .about-content-text {
+    width: 50%;
+    height: auto;
+}
+
+.about-content-text > p {
+    margin-bottom: 15px;
+}
+
+.about-image-wrapper > img {
+    width: 100%;
+}

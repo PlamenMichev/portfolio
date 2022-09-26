@@ -1,0 +1,18 @@
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: calc(100vh - 140px);
+    padding-top: 20px;
+}
+
+.image-content {
+    height: 300px;
+    width: 300px;
+    background: url('../../../public/assets/images/me.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 5px solid var(--accent-color);
+}
