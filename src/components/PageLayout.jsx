@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 export default function PageLayout({ title, children }) {
@@ -10,6 +11,7 @@ export default function PageLayout({ title, children }) {
         <section>
             <NavBar />
             {children}
+            <Footer />
         </section>
     )
 }

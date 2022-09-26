@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+    border-top: 1px solid var(--secondary-color);
+}
+
+.sm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--secondary-color);
+    font-size: 23px;
+}
+
+.sm:hover {
+    opacity: .85;
+}
+
+.logo {
+    height: 200px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
