@@ -18,7 +18,7 @@ body {
   background-color: var(--main-color);
 }
 
-h1, h2, p {
+h1, h2, h3, p {
   font-family: 'Open Sans', sans-serif;
   color: var(--secondary-color)
 }

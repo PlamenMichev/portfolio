@@ -1,0 +1,46 @@
+.experience-wrapper {
+    width: 70%;
+    margin: 150px auto;
+    display: flex;
+}
+
+.picker-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.picker {
+    height: 40px;
+    width: 140px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--secondary-color);
+    border: 2px solid var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.picker:hover, .picked {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+.experience-accent {
+    color: var(--accent-color);
+}
+
+.experience-range {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
