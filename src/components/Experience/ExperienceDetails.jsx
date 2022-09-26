@@ -20,8 +20,6 @@ export default function ExperienceDetails({companyName, position, startDate, end
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [companyName])
 
-
-    console.log(opacity)
     return (
         <div className="experienceDetails" style={{opacity: opacity}} key={triggerAnimation}>
             <h3 className="experience-title">{position} <a href={websiteUrl} target="_blank" className="experience-accent" rel="noreferrer">@{companyName}</a></h3>

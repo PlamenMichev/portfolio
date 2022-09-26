@@ -3,6 +3,7 @@ import Contact from "../components/Contact";
 import Experience from "../components/Experience";
 import HeroBanner from "../components/HeroBanner";
 import PageLayout from "../components/PageLayout";
+import Projects from "../components/Projects";
 import './home.css'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
             <HeroBanner />
             <About />
             <Experience />
+            <Projects />
             <Contact />
         </PageLayout>
     )

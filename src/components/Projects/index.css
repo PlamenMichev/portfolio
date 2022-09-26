@@ -1,0 +1,42 @@
+.project-item {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    background-size: cover;
+    filter: blur(2px) brightness(0.2);
+    transition: 0.1s filter linear;
+}
+
+.project-item:hover {
+    filter: blur(0);
+}
+
+.project-item-wrapper .project-text {
+    visibility: visible;
+}
+
+.project-item-wrapper:hover .project-text {
+    visibility: hidden;
+}
+
+.project-item-wrapper {
+    position: relative;
+}
+
+.project-text {
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    width: 94%;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 40px;
+}
