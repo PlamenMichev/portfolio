@@ -2,7 +2,7 @@ export default function ExperiencePicker({ options, currentSelection, setCurrent
     return (
         <div className="picker-wrapper">
             {options.map((option, index) => (
-                <div className={currentSelection === index ? 'picked picker' : 'picker'} key={option.key} onClick={() => setCurrentSelection(index)}>
+                <div key={option.companyName} className={currentSelection === index ? 'picked picker' : 'picker'} onClick={() => setCurrentSelection(index)}>
                     {option.companyName}
                 </div>
             ))}

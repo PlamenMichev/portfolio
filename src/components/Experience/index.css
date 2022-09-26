@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+.experience-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .picker-wrapper {
     display: flex;
     flex-direction: column;
