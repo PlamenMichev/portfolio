@@ -1,0 +1,27 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-button {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    color: var(--secondary-color);
+    fill: var(--secondary-color);
+}
+
+.contact-button:hover {
+    opacity: .8;
+}
