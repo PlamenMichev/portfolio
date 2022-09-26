@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: var(--secondary-color);
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+}
+
+.nav-link:hover {
+    opacity: 1;
+  }
+
+.nav-link::before {
+    width: 100%;
+    bottom: -6px;
+    opacity: 0;
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: var(--secondary-color);
+}
+  
+.nav-link:hover::before {
+    bottom: -2px;
+    opacity: 1;
+}
