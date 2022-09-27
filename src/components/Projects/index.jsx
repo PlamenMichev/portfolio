@@ -26,7 +26,7 @@ export default function Projects() {
     
     return (
         <>
-            <h2>Where I've been?</h2>
+            <h2>What I worked on?</h2>
             <div className="projects-wrapper" id="projects">
                 {projects.map(project => <ProjectItem key={project.id} {...project} />)}
             </div>
